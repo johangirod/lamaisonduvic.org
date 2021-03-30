@@ -23,12 +23,11 @@
 		"svelte-preprocess-markdown": "^2.7.3",
 		"tslib": "^2.0.0",
 		"typescript": "^4.0.0",
-		"vite": "^2.1.0"
+		"vite": "^2.1.0",
+		"vite-imagetools": "^3.3.2-alpha.0"
 	},
 	"type": "module",
 	"engines": {
 		"node": ">= 12.17.0"
-	},
-	"dependencies": {
 	}
 }

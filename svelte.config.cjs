@@ -1,6 +1,7 @@
 const { markdown } = require("svelte-preprocess-markdown");
 const vercel = require("@sveltejs/adapter-vercel");
 const pkg = require("./package.json");
+const imagetools = require("vite-imagetools");
 
 /** @type {import('@sveltejs/kit').Config} */
 module.exports = {
@@ -18,6 +19,7 @@ module.exports = {
       ssr: {
         noExternal: Object.keys(pkg.dependencies || {}),
       },
+      plugins: [imagetools({ force: true })],
     },
   },
 };

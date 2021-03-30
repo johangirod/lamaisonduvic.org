@@ -1,7 +1,8 @@
 <header>
-# La Maison du Vic
 
-Gîte associatif pour initiatives locales, populaires, solidaires ou sociales
+# Bienvenu à la Maison du Vic
+
+Gîte associatif pour initiatives locales, populaires, solidaires et/ou sociales
 
 [Nous écrire](mailto:lamaisonduvic@lilo.org)
 

@@ -1,20 +1,23 @@
 <svelte:head>
+
 <title>Charte de l'association</title>
 <meta name="description" content="La charte de l'association Vic et Vers Ça"/>
 </svelte:head>
 
-# La charte de l'association Vic et Vers Ça
+# La charte de l'association
 
-L'association propose des espaces de rencontres, de créations, de réflexions et d'organisations collectives dans le but de promouvoir des initiatives locales, populaires, solidaires et sociales. C'est en portant attention au fonctionnement, à l'ancrage territorial, aux activités qu'elle organise et à l'accessibilité que l'association souhaite s’inscrire dans une démarche de transformation sociale et de lutte contre les oppressions en tant que personnes directement concernées ou solidaires de ces luttes.
+L'association propose des espaces de rencontres, de créations, de réflexions et d'organisations collectives dans le but de promouvoir des **initiatives locales, populaires, solidaires et sociales**.
+
+C'est en portant attention au fonctionnement, à l'ancrage territorial, aux activités qu'elle organise et à l'accessibilité que l'association souhaite s’inscrire dans une **démarche de transformation sociale et de lutte contre les oppressions** en tant que personnes directement concernées ou solidaires de ces luttes.
 
 ## Le fonctionnement
 
-L'association Vic et Vers Ça met à disposition un lieu de vie collectif, la Maison du Vic. Les personnes qui l'utilisent s’y organisent de manière autonome, c'est-à-dire :
+L'association Vic et Vers Ça met à disposition un lieu de vie collectif, la Maison du Vic. Les personnes qui l'utilisent s’y organisent de **manière autonome**, c'est-à-dire :
 
 - qu'elles inventent leur fonctionnement propre en respectant le cadre du fonctionnement général de l'association et de la Maison du Vic défini dans le règlement intérieur et les statuts, transmis et disponibles sur place.
 - qu'elles ne sont pas dépendant·e·s des administrateur·trice·s de l'association au quotidien, notamment dans la gestion des tâches ménagères.
 
-Les personnes sont invitées à porter une attention aux ressources qu'elles utilisent et à l'environnement du lieu dans une démarche écologique.
+Les personnes sont invitées à porter une attention aux ressources qu'elles utilisent et à l'environnement du lieu dans **une démarche écologique**.
 
 ## L'ancrage territorial
 
@@ -26,7 +29,7 @@ Nous imaginons les rencontres de groupes locaux et d'ailleurs comme moyen de par
 
 ## Les activités proposées
 
-La Maison du Vic est un espace d'organisation collective pour les groupes, associations et collectifs locaux et d'ailleurs qui mènent des activités culturelles, sociales, politiques ou d'éducation populaire.
+La Maison du Vic est un espace d'organisation collective pour les groupes, associations et collectifs locaux et d'ailleurs qui mènent des activités **culturelles, sociales, politiques ou d'éducation populaire**.
 
 Ces activités peuvent être ponctuelles ou régulières.
 

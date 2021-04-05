@@ -4,26 +4,26 @@
 
 Gîte associatif pour initiatives locales, populaires, solidaires et/ou sociales
 
-[Nous écrire](mailto:lamaisonduvic@lilo.org)
-
 </header>
+
+<slot name="menu" />
 
 ## Le projet associatif
 
-A l'automne 2018, nous - Camille, Jb, Jen, Laetitia, Magali et Sophie - avons créé l'association Vic et Vers Ça, pour relancer une dynamique à la Maison du Vic, à Monestiés dans le Tarn.
+Le but de l'association est d'ouvrir et de faire vivre des **espaces de rencontre, de création, de réflexion et d'organisation collective** dans cette maison qui fut un lieu d'activités et d'hébergement pendant de nombreuses années. Cela peut prendre de multiples formes : des réunions, des formations, des ateliers manuels, des projections, des repas partagés, des résidences artistiques, des séjours et bien d'autres choses encore.
 
-Le but de l'association est d'ouvrir et de faire vivre des espaces de rencontre, de création, de réflexion et d'organisation collective dans cette maison qui fut un lieu d'activités et d'hébergement pendant de nombreuses années. Cela peut prendre de multiples formes : des réunions, des formations, des ateliers manuels, des projections, des repas partagés, des résidences artistiques, des séjours et bien d'autres choses encore.
+Les activités peuvent être ponctuelles ou plus régulières (comme les paniers locaux du jeudi). Il est possible de venir à la maison du Vic pour **une journée, plusieurs jours ou plusieurs semaines** en fonction de vos projets !
 
-Les activités peuvent être ponctuelles ou plus régulières (comme les paniers locaux du jeudi). Il est possible de venir à la maison du Vic pour une journée, plusieurs jours ou plusieurs semaines en fonction de vos projets !
+<slot name="photos" />
 
 Dans la maison, il y a :
 
-- Au rez-de-chaussée : une grande cuisine, un grand salon avec cheminée, une chambre (avec 2 lits une place) avec salle de bain et WC adaptés, un WC, une salle de bain.
-- Au 1er étage : 2 chambres (dont une avec 2 grands lits et une avec un grand lit), une salle de bain, une salle d'activités qui peut être convertie en chambre (canapé clic-clac), un WC.
-- Au 2ème étage : une grande salle d'activités modulable et un sleeping avec 5 lits une place (dont un superposé).
-- Un jardin devant la maison et un autre grand jardin derrière sur 2 niveaux.
+- **Au rez-de-chaussée** : une grande cuisine, un grand salon avec cheminée, une chambre (avec 2 lits une place) avec salle de bain et WC adaptés, un WC, une salle de bain.
+- **Au 1er étage** : 2 chambres (dont une avec 2 grands lits et une avec un grand lit), une salle de bain, une salle d'activités qui peut être convertie en chambre (canapé clic-clac), un WC.
+- **Au 2ème étage** : une grande salle d'activités modulable et un sleeping avec 5 lits une place (dont un superposé).
+- **Un jardin** devant la maison et un autre grand jardin derrière sur 2 niveaux.
 
-La maison peut donc accueillir 15 personnes au maximum pour dormir.
+La maison peut donc accueillir **15 personnes au maximum pour dormir**.
 
 Vous pouvez consulter la charte pour en savoir plus sur le projet et les activités, groupes, collectifs, associations susceptibles d’être accueillies dans la maison !
 
@@ -31,9 +31,7 @@ Vous pouvez consulter la charte pour en savoir plus sur le projet et les activit
 
 ## Les tarifs
 
-L'association Vic et Vers Ça, composée de six bénévoles administrateur·trice·s, met à disposition un lieu de vie collectif, la Maison du Vic, afin que s'y réalisent des activités et projets artistiques, de création, de réflexion et d'organisation collective dans une démarche de transformation sociale.
-
-Nous souhaitons que la Maison soit la plus accessible possible.
+Nous souhaitons que la Maison soit **la plus accessible possible**.
 
 Après avoir étudié les frais de gestion de la maison (eau, électricité, gaz, assurances, matériels de sécurité, travaux, taxes, etc.), nous vous proposons les tarifs suivants pour l'année 2021.
 

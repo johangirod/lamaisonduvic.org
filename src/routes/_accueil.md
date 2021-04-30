@@ -1,13 +1,3 @@
-<header>
-
-# Bienvenu à la Maison du Vic
-
-Gîte associatif pour initiatives locales, populaires, solidaires et sociales
-
-</header>
-
-<slot name="menu" />
-
 <span id="projet" />
 
 ## Le projet associatif
@@ -69,9 +59,9 @@ Le planning des activités et réservations de la maison
 
 <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;height=400&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=lamaisonduvic%40gmail.com&amp;amp;ctz=Europe%2FParis&amp;color=%230F4B38&amp;" style="border-width:0" scrolling="no" width="100%" height="400" frameborder="0"></iframe>
 
-<span id="lieu" />
-
 ## Nous trouver
+
+<span id="lieu" />
 
 Nous sommes situés :
 

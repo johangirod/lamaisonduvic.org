@@ -29,40 +29,68 @@
 		</svg>
 		<img alt="Vue du hameau de la Maison du Vic" srcset={maisonVic} type="image/webp" />
 	</div>
-	<Content>
-		<nav slot="menu">
-			<a href="#projet">La maison</a> ·
-			<a href="#tarifs">Tarifs</a> ·
-			<a href="#lieu">Nous trouver</a> ·
-			<a href="mailto:lamaisonduvic@lilo.org">Nous écrire</a>
-		</nav>
+	<header>
+		<img
+			height="130"
+			src="/logo.jpg"
+			alt="Logo de l'association de la maison du vic : Vic et Vers Ça"
+		/>
 
+		<h1>Bienvenu à la Maison du Vic</h1>
+		<p class="lead">Gîte associatif pour initiatives locales, populaires, solidaires et sociales</p>
+	</header>
+	<Content>
 		<Carrousel slot="photos asso" images={photosAsso} />
 		<Carrousel slot="photos maison" images={photosMaison} />
 	</Content>
+	<nav>
+		<a href="#projet">Le projet</a> ·
+		<a href="#tarifs">Tarifs</a> ·
+		<a href="#lieu">Nous trouver</a> ·
+		<a href="mailto:lamaisonduvic@lilo.org">Nous écrire</a>
+	</nav>
 </main>
 
 <style>
 	nav {
 		text-align: center;
 		position: sticky;
-		top: 0;
+		bottom: 0.26rem;
 		padding: 0.6rem;
+		margin: 0 -1rem;
 		z-index: 1;
-		background-color: white;
+		background-color: var(--color);
+
+		/* border: 1px solid var(--color); */
+		border-radius: 0.3rem;
+		border-top-right-radius: 0;
+		border-top-left-radius: 0;
+		color: #ffffffee;
+	}
+	nav a {
+		color: #ffffffee;
+	}
+	header {
+		z-index: 1;
+		position: relative;
+	}
+	.lead {
+		font-size: 120%;
 	}
 	.image {
 		margin: -1rem;
+		margin-top: 0;
 		display: flex;
 		align-items: center;
-		max-height: 40vh;
+		max-height: 50vh;
+		height: calc(1rem + 100vw * 270 / 360);
 		position: relative;
 		overflow: hidden;
 	}
 	.image img {
 		width: 100%;
-		position: relative;
-		top: -2rem;
+		position: absolute;
+		bottom: 0;
 	}
 	* > :global(header) {
 		text-align: center;

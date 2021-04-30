@@ -4,11 +4,22 @@
 	--color: hsl(275, 30%, 50%);
 	--titleColor: hsl(275, 30%, 35%);
 	--textColor: hsl(275, 30%, 15%);
+	--lightColor: hsl(275, 30%, 90%);
 
 	--containerWidth: 800px;
 }
 * {
 	box-sizing: border-box;
+}
+
+/* amatic-sc-regular - latin */
+@font-face {
+	font-family: 'Amatic SC';
+	font-style: normal;
+	font-weight: 400;
+	src: local(''), url('../fonts/amatic-sc-v16-latin-regular.woff2') format('woff2'),
+		/* Chrome 26+, Opera 23+, Firefox 39+ */ url('../fonts/amatic-sc-v16-latin-regular.woff')
+			format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
 /* josefin-slab-regular - latin */
@@ -63,4 +74,14 @@ a {
 }
 a:hover {
 	opacity: 0.8;
+}
+
+table {
+	border-spacing: 0;
+}
+table td,
+table th {
+	padding: 0.4rem 0.6rem;
+	border-bottom: 1px solid var(--lightColor);
+	border-right: 1px solid var(--lightColor);
 }

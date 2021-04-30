@@ -34,34 +34,55 @@
 	}
 </script>
 
-<div>
+<div class="container" on:click={handleNext} role="button">
 	<div bind:this={carousel} class="carrousel" class:center={!isOverflowing}>
 		{#each displayedImages as { srcset, alt, id } (id)}
-			<img
-				role="button"
-				in:slide={{}}
-				out:slide={{ direction: -1 }}
-				animate:flip={{ duration: 400 }}
-				{srcset}
-				{alt}
-				on:click={handleNext}
-			/>
+			<img in:slide out:slide={{ direction: -1 }} animate:flip={{ duration: 400 }} {srcset} {alt} />
 		{/each}
 	</div>
+	{#if isOverflowing}
+		<div class="next">➔</div>
+	{/if}
 </div>
 
 <style>
+	.container {
+		max-width: 100vw;
+		z-index: 0;
+		position: relative;
+		background-color: white;
+		margin: 0 min(-1rem, calc((var(--containerWidth) - 100vw) / 2));
+		position: relative;
+		cursor: pointer;
+	}
+	.next {
+		height: 100%;
+		position: absolute;
+		top: 0;
+		justify-content: center;
+		width: 1.5rem;
+		padding: 0rem;
+		right: -0.5rem;
+		display: flex;
+		align-items: center;
+		background: white;
+		transition: all 0.2s;
+		color: var(--lightColor);
+	}
+
 	.carrousel {
 		display: flex;
-		margin: 0 min(-1rem, calc((var(--containerWidth) - 100vw) / 2));
-		max-width: 100vw;
 		overflow: hidden;
+	}
+	.container:hover .next {
+		width: calc(1.5rem + 6px);
+		color: var(--color);
 	}
 
 	.center {
 		justify-content: center;
 	}
-	.carrousel > :global(img) {
+	.carrousel > img {
 		max-height: 500px;
 		will-change: transform;
 		max-width: 100vw;

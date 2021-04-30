@@ -2,7 +2,7 @@
 
 # Bienvenu à la Maison du Vic
 
-Gîte associatif pour initiatives locales, populaires, solidaires et/ou sociales
+Gîte associatif pour initiatives locales, populaires, solidaires et sociales
 
 </header>
 

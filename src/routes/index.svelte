@@ -3,6 +3,14 @@
 	import Content from './_accueil.md';
 	import imagesGallerie from './_images/gallerie';
 	import maisonVic from './_images/maisonVic.jpg?w=400;640;768;1024&format=webp&srcset';
+
+
+
+
+
+
+
+
 </script>
 
 <svelte:head>
@@ -30,7 +38,11 @@
 		<img alt="Vue du hameau de la Maison du Vic" srcset={maisonVic} type="image/webp" />
 	</div>
 	<Content>
-		<a slot="menu" href="mailto:lamaisonduvic@lilo.org">Nous écrire</a>
+		<nav slot="menu">
+			<a href="mailto:lamaisonduvic@lilo.org">Tarifs</a> · 
+			<a href="mailto:lamaisonduvic@lilo.org">Nous trouver</a> · 
+			<a href="mailto:lamaisonduvic@lilo.org">Nous écrire</a>
+		</nav>
 		<div slot="photos">
 			<Carrousel images={imagesGallerie} />
 		</div>
@@ -38,16 +50,21 @@
 </main>
 
 <style>
+	nav {
+		text-align: center;
+	}
 	.image {
 		margin: -1rem;
 		display: flex;
 		align-items: center;
-		max-height: 50vh;
+		max-height: 40vh;
 		position: relative;
 		overflow: hidden;
 	}
 	.image img {
 		width: 100%;
+		position: relative;
+		top: -2rem
 	}
 	* > :global(header) {
 		text-align: center;

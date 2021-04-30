@@ -38,6 +38,7 @@
 	<div bind:this={carousel} class="carrousel" class:center={!isOverflowing}>
 		{#each displayedImages as { srcset, alt, id } (id)}
 			<img
+				role="button"
 				in:slide={{}}
 				out:slide={{ direction: -1 }}
 				animate:flip={{ duration: 400 }}

@@ -1,20 +1,12 @@
 <script>
 	import Carrousel from '$lib/Carrousel.svelte';
 	import Content from './_accueil.md';
-	import imagesGallerie from './_images/gallerie';
+	import { photosAsso, photosMaison } from './_images/gallerie';
 	import maisonVic from './_images/maisonVic.jpg?w=400;640;768;1024&format=webp&srcset';
-
-
-
-
-
-
-
-
 </script>
 
 <svelte:head>
-	<title>La maison du vic</title>
+	<title>La maison du Vic</title>
 	<meta
 		name="description"
 		content="Gîte associatif pour l'accueil des activités et des projets collectifs"
@@ -39,19 +31,25 @@
 	</div>
 	<Content>
 		<nav slot="menu">
-			<a href="mailto:lamaisonduvic@lilo.org">Tarifs</a> · 
-			<a href="mailto:lamaisonduvic@lilo.org">Nous trouver</a> · 
+			<a href="#projet">La maison</a> ·
+			<a href="#tarifs">Tarifs</a> ·
+			<a href="#lieu">Nous trouver</a> ·
 			<a href="mailto:lamaisonduvic@lilo.org">Nous écrire</a>
 		</nav>
-		<div slot="photos">
-			<Carrousel images={imagesGallerie} />
-		</div>
+
+		<Carrousel slot="photos asso" images={photosAsso} />
+		<Carrousel slot="photos maison" images={photosMaison} />
 	</Content>
 </main>
 
 <style>
 	nav {
 		text-align: center;
+		position: sticky;
+		top: 0;
+		padding: 0.6rem;
+		z-index: 1;
+		background-color: white;
 	}
 	.image {
 		margin: -1rem;
@@ -64,7 +62,7 @@
 	.image img {
 		width: 100%;
 		position: relative;
-		top: -2rem
+		top: -2rem;
 	}
 	* > :global(header) {
 		text-align: center;

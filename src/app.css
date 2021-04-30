@@ -1,64 +1,66 @@
 :root {
-  font-family: "Josefin Slab", serif;
+	font-family: 'Josefin Slab', serif;
 
-  --color: hsl(275, 30%, 50%);
-  --titleColor: hsl(275, 30%, 35%);
-  --textColor: hsl(275, 30%, 15%);
+	--color: hsl(275, 30%, 50%);
+	--titleColor: hsl(275, 30%, 35%);
+	--textColor: hsl(275, 30%, 15%);
 
-  --containerWidth: 800px;
+	--containerWidth: 800px;
 }
 * {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 /* josefin-slab-regular - latin */
 @font-face {
-  font-family: "Josefin Slab";
-  font-style: normal;
-  font-weight: 400;
+	font-family: 'Josefin Slab';
+	font-style: normal;
+	font-weight: 400;
 
-  src: local(""),
-    url("/fonts/josefin-slab-v13-latin-regular.woff2") format("woff2"),
-    /* Chrome 26+, Opera 23+, Firefox 39+ */
-      url("/fonts/josefin-slab-v13-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+	src: local(''), url('/fonts/josefin-slab-v13-latin-regular.woff2') format('woff2'),
+		/* Chrome 26+, Opera 23+, Firefox 39+ */ url('/fonts/josefin-slab-v13-latin-regular.woff')
+			format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
 /* josefin-slab-600 - latin */
 @font-face {
-  font-family: "Josefin Slab";
-  font-style: normal;
-  font-weight: 600;
-  src: local(""), url("/fonts/josefin-slab-v13-latin-600.woff2") format("woff2"),
-    /* Chrome 26+, Opera 23+, Firefox 39+ */
-      url("/fonts/josefin-slab-v13-latin-600.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+	font-family: 'Josefin Slab';
+	font-style: normal;
+	font-weight: 600;
+	src: local(''), url('/fonts/josefin-slab-v13-latin-600.woff2') format('woff2'),
+		/* Chrome 26+, Opera 23+, Firefox 39+ */ url('/fonts/josefin-slab-v13-latin-600.woff')
+			format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
 @media (min-width: 600px) {
-  body,
-  html {
-    font-size: 1.15rem;
-  }
+	body,
+	html {
+		font-size: 1.15rem;
+	}
 }
 
 body,
 html {
-  margin: 0;
-  color: var(--textColor);
-  padding: 0;
+	margin: 0;
+	color: var(--textColor);
+	padding: 0;
 }
 
 h1,
 h2,
 h3,
 h4 {
-  color: var(--titleColor);
-  font-weight: 600;
+	color: var(--titleColor);
+	font-weight: 600;
 }
 
 h1 {
-  text-align: center;
+	text-align: center;
 }
 
 a {
-  color: var(--color);
+	color: var(--color);
+}
+a:hover {
+	opacity: 0.8;
 }

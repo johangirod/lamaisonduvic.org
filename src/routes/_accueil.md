@@ -8,13 +8,21 @@ Gîte associatif pour initiatives locales, populaires, solidaires et sociales
 
 <slot name="menu" />
 
+<span id="projet" />
+
 ## Le projet associatif
 
 Le but de l'association est d'ouvrir et de faire vivre des **espaces de rencontre, de création, de réflexion et d'organisation collective** dans cette maison qui fut un lieu d'activités et d'hébergement pendant de nombreuses années. Cela peut prendre de multiples formes : des réunions, des formations, des ateliers manuels, des projections, des repas partagés, des résidences artistiques, des séjours et bien d'autres choses encore.
 
 Les activités peuvent être ponctuelles ou plus régulières (comme les paniers locaux du jeudi). Il est possible de venir à la maison du Vic pour **une journée, plusieurs jours ou plusieurs semaines** en fonction de vos projets !
 
-<slot name="photos" />
+Vous pouvez consulter la charte pour en savoir plus sur le projet et les activités, groupes, collectifs, associations susceptibles d’être accueillies dans la maison !
+
+[Découvrir la charte de l'association](/charte)
+
+<slot name="photos asso" />
+
+## La maison
 
 Dans la maison, il y a :
 
@@ -25,9 +33,9 @@ Dans la maison, il y a :
 
 La maison peut donc accueillir **15 personnes au maximum pour dormir**.
 
-Vous pouvez consulter la charte pour en savoir plus sur le projet et les activités, groupes, collectifs, associations susceptibles d’être accueillies dans la maison !
+<slot name="photos maison" />
 
-[Découvrir la charte de l'association](/charte)
+<span id="tarifs" />
 
 ## Les tarifs
 
@@ -59,7 +67,9 @@ Nous sommes disponibles pour vous donner plus d’informations !
 
 Le planning des activités et réservations de la maison
 
-<iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;height=400&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=lamaisonduvic%40gmail.com&amp;amp;ctz=Europe%2FParis&amp;color=%230F4B38&amp;" style="border-width:0" scrolling="no" width="800" height="400" frameborder="0"></iframe>
+<iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;height=400&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=lamaisonduvic%40gmail.com&amp;amp;ctz=Europe%2FParis&amp;color=%230F4B38&amp;" style="border-width:0" scrolling="no" width="100%" height="400" frameborder="0"></iframe>
+
+<span id="lieu" />
 
 ## Nous trouver
 

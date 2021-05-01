@@ -63,17 +63,26 @@ Le planning des activités et réservations de la maison
 
 <span id="lieu" />
 
+<div class="flex">
+<div>
+
+Adresse :
+
+> **La Maison du Vic,
+> 5 le Vic,
+> 81640 Monestiés**
+
 Nous sommes situés :
 
 - À 5 minutes de Carmaux (gare SNCF)
 - À 30 minutes d'Albi
 - À 1 heure de Toulouse et Rodez
 
-### Adresse
-
-> La Maison du Vic
-> 5 le Vic
-> 81640 Monestiés
+</div>
+<div style="text-align: right">
+<iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=1.5861511230468752%2C43.758200767075934%2C2.638092041015625%2C44.36116948697885&amp;layer=mapnik&amp;marker=44.06045271345171%2C2.11212158203125" style="border: 1px solid black"></iframe><small><a href="https://www.openstreetmap.org/?mlat=44.0605&amp;mlon=2.1121#map=10/44.0605/2.1121">Voir la carte en grand</a></small>
+</div>
+</div>
 
 ## Notre projet vous parle et vous souhaitez le soutenir ?
 

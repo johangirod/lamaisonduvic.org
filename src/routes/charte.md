@@ -4,6 +4,8 @@
 <meta name="description" content="La charte de l'association Vic et Vers Ça"/>
 </svelte:head>
 
+[🡨 Retour](/)
+
 # La charte de l'association
 
 L'association propose des espaces de rencontres, de créations, de réflexions et d'organisations collectives dans le but de promouvoir des **initiatives locales, populaires, solidaires et sociales**.

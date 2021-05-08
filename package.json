@@ -1,5 +1,5 @@
 {
-	"name": "lamaisonduvic.org3",
+	"name": "lamaisonduvic.org",
 	"version": "0.0.1",
 	"scripts": {
 		"dev": "svelte-kit dev",
@@ -13,12 +13,11 @@
 		"@sveltejs/kit": "next",
 		"eslint": "^7.22.0",
 		"eslint-config-prettier": "^8.1.0",
-		"eslint-plugin-svelte3": "^3.1.0",
+		"eslint-plugin-svelte3": "^3.2.0",
 		"prettier": "~2.2.1",
 		"prettier-plugin-svelte": "^2.2.0",
-		"svelte": "^3.29.0",
+		"svelte": "^3.34.0",
 		"svelte-preprocess-markdown": "^2.7.3",
-		"vite": "^2.1.0",
 		"vite-imagetools": "3.4.0"
 	},
 	"type": "module"

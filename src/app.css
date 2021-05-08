@@ -86,12 +86,14 @@ table th {
 	border-right: 1px solid var(--lightColor);
 }
 
-.flex {
-	display: flex;
-	margin: 0 -0.5rem;
-}
+@media (min-width: 600px) {
+	.colonnes {
+		display: flex;
+		margin: 0 -0.5rem;
+	}
 
-.flex > * {
-	flex: 1;
-	margin: 0 0.5rem;
+	.colonnes > * {
+		flex: 1;
+		margin: 0 0.5rem;
+	}
 }

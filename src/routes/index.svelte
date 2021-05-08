@@ -39,6 +39,12 @@
 		<h1>Bienvenu à la Maison du Vic</h1>
 		<p class="lead">Gîte associatif pour initiatives locales, populaires, solidaires et sociales</p>
 	</header>
+	<nav>
+		<a href="/#projet">Le projet</a> ·
+		<a href="/#tarifs">Tarifs</a> ·
+		<a href="/#lieu">Nous trouver</a> ·
+		<a href="mailto:lamaisonduvic@lilo.org">Nous écrire</a>
+	</nav>
 	<Content>
 		<Carrousel slot="photos asso" images={photosAsso} />
 		<Carrousel slot="photos maison" images={photosMaison} />
@@ -55,13 +61,17 @@
 	}
 	.image {
 		margin: -1rem;
-		margin-top: 0;
 		display: flex;
 		align-items: center;
 		max-height: 50vh;
 		height: calc(1rem + 100vw * 270 / 360);
 		position: relative;
 		overflow: hidden;
+	}
+	@media (min-width: 600px) {
+		.image {
+			margin-top: 0;
+		}
 	}
 	.image img {
 		width: 100%;
@@ -82,5 +92,23 @@
 	}
 	path {
 		fill: white;
+	}
+	nav {
+		text-align: center;
+		position: sticky;
+		top: 0;
+		padding: 0.6rem;
+		margin: 0 -1rem;
+		z-index: 1;
+		background-color: var(--color);
+
+		/* border: 1px solid var(--color); */
+		border-radius: 0.3rem;
+		/* border-top-right-radius: 0;
+		border-top-left-radius: 0; */
+		color: #ffffffee;
+	}
+	nav a {
+		color: #ffffffee;
 	}
 </style>

@@ -1,12 +1,12 @@
 <script>
-	import { bind, onMount } from 'svelte/internal';
 	import { flip } from 'svelte/animate';
 	import { cubicOut } from 'svelte/easing';
+	import { onMount } from 'svelte/internal';
 
 	export let images;
 
 	let carousel;
-	let isOverflowing = false;
+	let isOverflowing = true;
 	let displayedImages = images.map((img, id) => ({ ...img, id }));
 	onMount(() => {
 		isOverflowing = carousel.clientWidth < carousel.scrollWidth;
@@ -69,7 +69,6 @@
 		transition: all 0.2s;
 		color: var(--lightColor);
 	}
-
 	.carrousel {
 		display: flex;
 		overflow: hidden;
@@ -87,5 +86,11 @@
 		will-change: transform;
 		max-width: 100vw;
 		padding: 1rem;
+	}
+
+	@media (max-width: 600px) {
+		.next {
+			display: none;
+		}
 	}
 </style>

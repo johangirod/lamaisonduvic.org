@@ -5,7 +5,7 @@
 	--titleColor: hsl(275, 30%, 35%);
 	--textColor: hsl(275, 30%, 15%);
 	--lightColor: hsl(275, 30%, 90%);
-
+	--secondaryColor: #1ea152;
 	--containerWidth: 800px;
 }
 * {
@@ -17,8 +17,8 @@
 	font-family: 'Amatic SC';
 	font-style: normal;
 	font-weight: 400;
-	src: local(''), url('../fonts/amatic-sc-v16-latin-regular.woff2') format('woff2'),
-		/* Chrome 26+, Opera 23+, Firefox 39+ */ url('../fonts/amatic-sc-v16-latin-regular.woff')
+	src: local(''), url('/fonts/amatic-sc-v16-latin-regular.woff2') format('woff2'),
+		/* Chrome 26+, Opera 23+, Firefox 39+ */ url('/fonts/amatic-sc-v16-latin-regular.woff')
 			format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
@@ -61,6 +61,7 @@ h1,
 h2,
 h3,
 h4 {
+	font-family: 'Amatic SC';
 	color: var(--titleColor);
 	font-weight: 600;
 }
@@ -71,9 +72,10 @@ h1 {
 
 a {
 	color: var(--color);
+	font-weight: 600;
 }
 a:hover {
-	opacity: 0.8;
+	opacity: 0.9;
 }
 
 table {
@@ -96,4 +98,32 @@ table th {
 		flex: 1;
 		margin: 0 0.5rem;
 	}
+}
+p > a:only-child {
+	/* Button style */
+	/* text-transform: uppercase; */
+	/* font-family: 'Amatic SC'; */
+	opacity: 1;
+	box-shadow: inset 0px -15px 0 0px var(--lightColor);
+	padding: 0.2rem 0.4rem;
+	text-decoration: none;
+	transition: all 0.1s;
+	will-change: auto;
+}
+
+p:not(:first-child) > a:only-child {
+	/* Align left */
+	display: inline-block;
+	position: relative;
+	left: 100%;
+	transform: translateX(-100%);
+}
+p > a:only-child:hover {
+	border-radius: 0.1rem;
+	box-shadow: inset 0 -35px 0px 0px var(--color);
+
+	color: white;
+}
+p > a:only-child:active {
+	transform: translateX(-100%) translateY(2px);
 }

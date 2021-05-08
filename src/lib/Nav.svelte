@@ -1,4 +1,5 @@
 <script>
+	const top = false;
 </script>
 
 <div>

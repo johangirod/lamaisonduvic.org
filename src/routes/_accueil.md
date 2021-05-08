@@ -83,6 +83,8 @@ Nous sommes situés :
 </div>
 </div>
 
-## Notre projet vous parle et vous souhaitez le soutenir ?
+## Nous aider
+
+Notre projet vous parle et vous souhaitez le soutenir ? Vous pouvez adhérer à prix libre en suivant le lien ci-dessous.
 
 [Soutenir l'association](https://www.helloasso.com/associations/vic-et-vers-ca/adhesions/bulletin-d-adhesion-a-l-association-vic-et-vers-ca)

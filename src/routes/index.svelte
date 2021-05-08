@@ -101,11 +101,7 @@
 		margin: 0 -1rem;
 		z-index: 1;
 		background-color: var(--color);
-
-		/* border: 1px solid var(--color); */
-		border-radius: 0.3rem;
-		/* border-top-right-radius: 0;
-		border-top-left-radius: 0; */
+		border-radius: 0.1rem;
 		color: #ffffffee;
 	}
 	nav a {

@@ -19,6 +19,32 @@
 		displayedImages = [...rest, { ...first, id: rest[rest.length - 1].id + 1 }];
 	}
 
+	let xDown = null;
+	function handleTouchStart(evt) {
+		const touch = evt.touches[0];
+		xDown = touch.clientX;
+	}
+
+	function handleTouchMove(evt) {
+		if (!xDown || !yDown) {
+			return;
+		}
+
+		const xUp = evt.touches[0].clientX;
+
+		const xDiff = xDown - xUp;
+		if (xDiff > 0) {
+			/* left swipe */
+		} else {
+			handleNext();
+			/* right swipe */
+		}
+
+		/* reset values */
+		xDown = null;
+		yDown = null;
+	}
+
 	function slide(_, params) {
 		const direction = params.direction || 1;
 		return {
@@ -37,7 +63,15 @@
 <div class="container" on:click={handleNext} role="button">
 	<div bind:this={carousel} class="carrousel" class:center={!isOverflowing}>
 		{#each displayedImages as { srcset, alt, id } (id)}
-			<img in:slide out:slide={{ direction: -1 }} animate:flip={{ duration: 400 }} {srcset} {alt} />
+			<img
+				in:slide
+				out:slide={{ direction: -1 }}
+				animate:flip={{ duration: 400 }}
+				on:touchstart={handleTouchStart}
+				on:touchmove={handleTouchMove}
+				{srcset}
+				{alt}
+			/>
 		{/each}
 	</div>
 	{#if isOverflowing}

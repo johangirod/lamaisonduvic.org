@@ -68,9 +68,9 @@
 		position: relative;
 		overflow: hidden;
 	}
-	@media (min-width: 600px) {
+	@media (min-width: 800px) {
 		.image {
-			margin-top: 0;
+			margin-top: 1rem;
 		}
 	}
 	.image img {

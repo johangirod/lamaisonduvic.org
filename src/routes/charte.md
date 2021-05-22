@@ -10,6 +10,8 @@
 
 [🡨 Retour](/)
 
+<div style="text-align: center"><img alt="logo association Vic et Vers Ça" src="/images/logo.jpg" height="130"></div>
+
 # La charte de l'association
 
 L'association propose des espaces de rencontres, de créations, de réflexions et d'organisations collectives dans le but de promouvoir des **initiatives locales, populaires, solidaires et sociales**.

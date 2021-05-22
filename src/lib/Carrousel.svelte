@@ -34,14 +34,23 @@
 	}
 </script>
 
-<div class="container" on:click={handleNext} role="button">
-	<div bind:this={carousel} class="carrousel" class:center={!isOverflowing}>
+<div class="container" role="button" class:isOverflowing>
+	<div bind:this={carousel} class="carrousel">
 		{#each displayedImages as { srcset, alt, id } (id)}
-			<img in:slide out:slide={{ direction: -1 }} animate:flip={{ duration: 400 }} {srcset} {alt} />
+			<img
+				in:slide={{ direction: 1, duration: 500 }}
+				out:slide={{ direction: -1, duration: 500 }}
+				animate:flip={{ duration: 500 }}
+				on:click={handleNext}
+				{srcset}
+				{alt}
+			/>
 		{/each}
 	</div>
 	{#if isOverflowing}
-		<div class="next">➔</div>
+		<div class="next">
+			<button on:click={handleNext}>➔</button>
+		</div>
 	{/if}
 </div>
 
@@ -53,44 +62,71 @@
 		background-color: white;
 		margin: 0 min(-1rem, calc((var(--containerWidth) - 100vw) / 2));
 		position: relative;
-		cursor: pointer;
 	}
-	.next {
-		height: 100%;
-		position: absolute;
-		top: 0;
-		justify-content: center;
-		width: 1.5rem;
-		padding: 0rem;
-		right: -0.5rem;
-		display: flex;
-		align-items: center;
-		background: white;
-		transition: all 0.2s;
-		color: var(--lightColor);
-	}
+
 	.carrousel {
 		display: flex;
 		overflow: hidden;
 	}
 	.container:hover .next {
-		width: calc(1.5rem + 6px);
 		color: var(--color);
 	}
 
-	.center {
+	.container:not(.isOverflowing) {
 		justify-content: center;
 	}
+
 	.carrousel > img {
-		max-height: 500px;
+		height: 500px;
+		max-height: 80vw;
 		will-change: transform;
 		max-width: 100vw;
+		object-fit: cover;
+		object-position: center;
+		cursor: pointer;
 		padding: 1rem;
 	}
 
-	@media (max-width: 600px) {
+	.container:not(.isOverflowing) .next {
+		display: none;
+	}
+	.next {
+		display: flex;
+		width: 100%;
+		position: absolute;
+
+		margin-top: -0.5rem;
+		color: var(--color);
+		align-items: center;
+		justify-content: center;
+		background: white;
+		transition: all 0.2s;
+	}
+
+	.next button {
+		border: none;
+		color: inherit;
+
+		background: none;
+		font-size: inherit;
+		font-weight: inherit;
+		font-family: inherit;
+		cursor: pointer;
+	}
+	@media (min-width: 800px) {
 		.next {
-			display: none;
+			height: 100%;
+			color: var(--lightColor);
+			position: absolute;
+			top: 0;
+			max-width: 1rem;
+			margin-top: 0;
+
+			padding: 0rem;
+			right: 0rem;
+		}
+		.next button {
+			margin-left: 0.5rem;
 		}
 	}
 </style>

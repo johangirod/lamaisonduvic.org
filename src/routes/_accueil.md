@@ -35,21 +35,21 @@ Après avoir étudié les frais de gestion de la maison (eau, électricité, gaz
 
 Ces tarifs sont valables pour toute la maison, indépendamment du nombre de personnes.
 
-### Hiver (du jj/mm au jj/mm)
-
-|              | Tarif de base | Tarif soutien |
-| -----------: | ------------: | ------------: |
-|       Nuitée |          80 € |         100 € |
-|      Journée |          50 € |          60 € |
-| Demi-journée |          30 € |          40 € |
-
-### Été (du jj/mm au jj/mm)
+### Été
 
 |              | Tarif de base | Tarif soutien |
 | -----------: | ------------: | ------------: |
 |       Nuitée |          70 € |          90 € |
 |      Journée |          40 € |          50 € |
 | Demi-journée |          20 € |          30 € |
+
+### Hiver
+
+|              | Tarif de base | Tarif soutien |
+| -----------: | ------------: | ------------: |
+|       Nuitée |          80 € |         100 € |
+|      Journée |          50 € |          60 € |
+| Demi-journée |          30 € |          40 € |
 
 Nous sommes disponibles pour vous donner plus d’informations !
 

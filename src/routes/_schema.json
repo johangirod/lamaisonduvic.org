@@ -1,0 +1,71 @@
+{
+  "@context": "http://schema.org",
+  "@type": "LodgingBusiness",
+  "name": "La Maison du Vic",
+  "description": "Gîte associatif pour initiatives locales, populaires, solidaires et sociales",
+  "url": "https://lamaisonduvic.org",
+  "logo": "https://lamaisonduvic.org/images/logo.jpg",
+  "numberOfRooms": 8,
+  "numberOfBathroomsTotal": 3,
+  "numberOfBedrooms": 5,
+  "petsAllowed": true,
+  "priceRange": "$",
+  "address": {
+    "@type": "PostalAddress",
+    "addressCountry": "FR",
+    "addressLocality": "Monestiés",
+    "postalCode": "81640",
+    "streetAddress": "5 Le Vic",
+    "email": "lamaisonduvic@lilo.org"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 44.06051,
+    "longitude":2.1121
+  },
+  "image": [
+    "https://lamaisonduvic.org/images/maisonVic.jpg", 
+    "https://lamaisonduvic.org/images/gallerie/entree.jpg",
+    "https://lamaisonduvic.org/images/gallerie/cuisine.jpg"
+  ],
+  "maximumAttendeeCapacity": 15,
+  "makesOffer": {
+    "@type": "Offer",
+    "acceptedPaymentMethod": [
+      {
+        "@type": "PaymentMethod",
+        "url": "http://purl.org/goodrelations/v1#Cash"
+      },
+      {
+        "@type": "PaymentMethod",
+        "url": "http://purl.org/goodrelations/v1#ByBankTransferInAdvance"
+      },
+      {
+        "@type": "PaymentMethod",
+        "url": "http://purl.org/goodrelations/v1#CheckInAdvance"
+      }
+    ]
+  },
+  "amenityFeature": [
+    {
+      "@type": "LocationFeatureSpecification",
+      "name": "Free Wi-Fi"
+    },
+    {
+      "@type": "LocationFeatureSpecification",
+      "name": "Free parking"
+    },
+    {
+      "@type": "LocationFeatureSpecification",
+      "name": "Accessible"
+    },
+    {
+      "@type": "LocationFeatureSpecification",
+      "name": "Pet-friendly"
+    },
+    {
+      "@type": "LocationFeatureSpecification",
+      "name": "Kid-friendly"
+    }
+  ]
+}

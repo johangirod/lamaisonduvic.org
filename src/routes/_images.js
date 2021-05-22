@@ -1,11 +1,12 @@
-import barnumBar from './barnumBar.jpg?w=400;640;768;1024&format=webp&srcset';
-import barnumTable from './barnumTable.jpg?w=400;640;768;1024&format=webp&srcset';
-import repasSoir from './repasSoir.jpg?w=400;640;768;1024&format=webp&srcset';
-import cuisine from './cuisine.jpg?w=400;640;768;1024&format=webp&srcset';
-import salon from './salon.jpg?w=400;640;768;1024&format=webp&srcset';
-import salleZen from './salleZen.jpg?w=400;640;768;1024&format=webp&srcset';
-import chats from './chats.jpg?w=400;640;768;1024&format=webp&srcset';
-import entree from './entree.jpg?w=400;640;768;1024&format=webp&srcset';
+import barnumBar from '../../static/images/gallerie/barnumBar.jpg?w=400;640;768;1024&format=webp&srcset';
+import barnumTable from '../../static/images/gallerie/barnumTable.jpg?w=400;640;768;1024&format=webp&srcset';
+import chats from '../../static/images/gallerie/chats.jpg?w=400;640;768;1024&format=webp&srcset';
+import cuisine from '../../static/images/gallerie/cuisine.jpg?w=400;640;768;1024&format=webp&srcset';
+import entree from '../../static/images/gallerie/entree.jpg?w=400;640;768;1024&format=webp&srcset';
+import repasSoir from '../../static/images/gallerie/repasSoir.jpg?w=400;640;768;1024&format=webp&srcset';
+import salleZen from '../../static/images/gallerie/salleZen.jpg?w=400;640;768;1024&format=webp&srcset';
+import salon from '../../static/images/gallerie/salon.jpg?w=400;640;768;1024&format=webp&srcset';
+import maisonVic from '../../static/images/maisonVic.jpg?w=400;640;768;1024&format=webp&srcset';
 export const photosAsso = [
 	{
 		srcset: barnumTable,
@@ -48,3 +49,8 @@ export const photosMaison = [
 		alt: 'Deux petits chats à côté du puits dans le jardin de la maison'
 	}
 ];
+
+export const photoMaisonVic = {
+	srcset: maisonVic,
+	alt: 'Vue du hameau de la Maison du Vic'
+};

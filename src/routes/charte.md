@@ -1,7 +1,11 @@
 <svelte:head>
 
 <title>Charte de l'association</title>
-<meta name="description" content="La charte de l'association Vic et Vers Ça"/>
+<meta name="description" content="La charte de l'association"/>
+<meta property="og:title" content="La Charte de l'association Vic et Vers Ça" />
+<meta property="og:description" content="L'association propose des espaces de rencontres, de créations, de réflexions et d'organisations collectives dans le but de promouvoir des initiatives locales, populaires, solidaires et sociales. Vous trouverez ici notre charte complète." />
+<meta property="og:image" content="/images/logo.jpg" />
+<meta og:locale="fr_FR" />
 </svelte:head>
 
 [🡨 Retour](/)

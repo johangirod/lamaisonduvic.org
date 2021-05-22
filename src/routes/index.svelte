@@ -1,8 +1,8 @@
 <script>
 	import Carrousel from '$lib/Carrousel.svelte';
 	import Content from './_accueil.md';
-	import { photosAsso, photosMaison } from './_images/gallerie';
-	import maisonVic from './_images/maisonVic.jpg?w=400;640;768;1024&format=webp&srcset';
+	import { photoMaisonVic, photosAsso, photosMaison } from './_images';
+	import schema from './_schema.json';
 </script>
 
 <svelte:head>
@@ -11,7 +11,14 @@
 		name="description"
 		content="Gîte associatif pour l'accueil des activités et des projets collectifs"
 	/>
+	<meta property="og:title" content="La Maison du Vic" />
+	<meta
+		name="og:description"
+		content="Gîte associatif pour initiatives locales, populaires, solidaires et sociales. "
+	/>
+	{@html `<script type="application/ld+json" >${JSON.stringify(schema)}<\/script>`}
 </svelte:head>
+
 <main>
 	<div class="image">
 		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
@@ -27,12 +34,12 @@
 				d="M766.1,28.9c-200-57.5-266,65.5-395.1,19.5C242,1.8,242,5.4,184.8,20.6C128,35.8,132.3,44.9,89.9,52.5C28.6,63.7,0,0,0,0 h1000c0,0-9.9,40.9-83.6,48.1S829.6,47,766.1,28.9z"
 			/>
 		</svg>
-		<img alt="Vue du hameau de la Maison du Vic" srcset={maisonVic} type="image/webp" />
+		<img {...photoMaisonVic} type="image/webp" />
 	</div>
 	<header>
 		<img
 			height="130"
-			src="/logo.jpg"
+			src="/images/logo.jpg"
 			alt="Logo de l'association de la maison du vic : Vic et Vers Ça"
 		/>
 

@@ -1,5 +1,3 @@
-<span id="projet" />
-
 ## Le projet associatif
 
 Le but de l'association est d'ouvrir et de faire vivre des **espaces de rencontre, de création, de réflexion et d'organisation collective** dans cette maison qui fut un lieu d'activités et d'hébergement pendant de nombreuses années. Cela peut prendre de multiples formes : des réunions, des formations, des ateliers manuels, des projections, des repas partagés, des résidences artistiques, des séjours et bien d'autres choses encore.
@@ -7,6 +5,8 @@ Le but de l'association est d'ouvrir et de faire vivre des **espaces de rencontr
 Les activités peuvent être ponctuelles ou plus régulières (comme les paniers locaux du jeudi). Il est possible de venir à la maison du Vic pour **une journée, plusieurs jours ou plusieurs semaines** en fonction de vos projets !
 
 Vous pouvez consulter la charte pour en savoir plus sur le projet et les activités, groupes, collectifs, associations susceptibles d’être accueillies dans la maison !
+
+>
 
 [Découvrir la charte de l'association](/charte)
 
@@ -24,8 +24,6 @@ Dans la maison, il y a :
 La maison peut donc accueillir **15 personnes au maximum pour dormir**.
 
 <slot name="photos maison" />
-
-<span id="tarifs" />
 
 ## Les tarifs
 
@@ -57,9 +55,7 @@ Nous sommes disponibles pour vous donner plus d’informations !
 
 Le planning des activités et réservations de la maison
 
-<iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;height=400&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=lamaisonduvic%40gmail.com&amp;amp;ctz=Europe%2FParis&amp;color=%230F4B38&amp;" style="border-width:0" scrolling="no" width="100%" height="400" frameborder="0"></iframe>
-
-<span id="lieu" />
+<iframe title="L'agenda de la maison du Vic" src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;height=400&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=lamaisonduvic%40gmail.com&amp;amp;ctz=Europe%2FParis&amp;color=%230F4B38&amp;"  scrolling="no" width="100%" height="400"></iframe>
 
 ## Nous trouver
 
@@ -79,12 +75,18 @@ Nous sommes situés :
 </div>
 
 <div style="text-align: right" name>
-  <iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=1.5861511230468752%2C43.758200767075934%2C2.638092041015625%2C44.36116948697885&amp;layer=mapnik&amp;marker=44.06045271345171%2C2.11212158203125" style="border: 1px solid black"></iframe><small><a href="https://www.openstreetmap.org/?mlat=44.0605&amp;mlon=2.1121#map=10/44.0605/2.1121">Voir la carte en grand</a></small>
+  <iframe width="100%" height="350" title="La maison du Vic sur la carte" scrolling="no"  src="https://www.openstreetmap.org/export/embed.html?bbox=1.5861511230468752%2C43.758200767075934%2C2.638092041015625%2C44.36116948697885&amp;layer=mapnik&amp;marker=44.06045271345171%2C2.11212158203125" ></iframe><small><a href="https://www.openstreetmap.org/?mlat=44.0605&amp;mlon=2.1121#map=10/44.0605/2.1121">Voir la carte en grand</a></small>
 </div>
 </div>
+
+## Nous contacter
+
+Vous pouvez nous envoyer un message à l'adresse <lamaisonduvic@lilo.org>.
 
 ## Nous aider
 
 Notre projet vous parle et vous souhaitez le soutenir ? Vous pouvez adhérer à prix libre en suivant le lien ci-dessous.
+
+>
 
 [Soutenir l'association](https://www.helloasso.com/associations/vic-et-vers-ca/adhesions/bulletin-d-adhesion-a-l-association-vic-et-vers-ca)

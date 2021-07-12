@@ -8,6 +8,8 @@
 <meta og:locale="fr_FR" />
 </svelte:head>
 
+>
+
 [🡨 Retour](/)
 
 <div style="text-align: center"><img alt="logo association Vic et Vers Ça" src="/images/logo.jpg" height="130"></div>

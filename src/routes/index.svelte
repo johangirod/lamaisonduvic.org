@@ -1,4 +1,5 @@
 <script>
+	import Actualités from '$lib/Actualités.svelte';
 	import Carrousel from '$lib/Carrousel.svelte';
 	import Content from './_accueil.md';
 	import { photoMaisonVic, photosAsso, photosMaison } from './_images';
@@ -34,7 +35,7 @@
 				d="M766.1,28.9c-200-57.5-266,65.5-395.1,19.5C242,1.8,242,5.4,184.8,20.6C128,35.8,132.3,44.9,89.9,52.5C28.6,63.7,0,0,0,0 h1000c0,0-9.9,40.9-83.6,48.1S829.6,47,766.1,28.9z"
 			/>
 		</svg>
-		<img {...photoMaisonVic} type="image/webp" />
+		<img {...photoMaisonVic} type="image/webp" alt="Vue du hameau de la maison du vic" />
 	</div>
 	<header>
 		<img
@@ -43,14 +44,15 @@
 			alt="Logo de l'association de la maison du vic : Vic et Vers Ça"
 		/>
 
-		<h1>Bienvenu à la Maison du Vic</h1>
+		<h1>Bienvenue à la Maison du Vic</h1>
 		<p class="lead">Gîte associatif pour initiatives locales, populaires, solidaires et sociales</p>
 	</header>
+	<Actualités />
 	<nav>
-		<a href="/#projet">Le projet</a> ·
-		<a href="/#tarifs">Tarifs</a> ·
-		<a href="/#lieu">Nous trouver</a> ·
-		<a href="mailto:lamaisonduvic@lilo.org">Nous écrire</a>
+		<a href="/#le-projet-associatif">Le projet</a> ·
+		<a href="/#les-tarifs">Les tarifs</a> ·
+		<a href="/#nous-trouver">Nous trouver</a> ·
+		<a href="/#nous-contacter">Nous écrire</a>
 	</nav>
 	<Content>
 		<Carrousel slot="photos asso" images={photosAsso} />

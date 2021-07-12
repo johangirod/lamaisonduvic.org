@@ -9,6 +9,7 @@
 		"format": "prettier --write ."
 	},
 	"devDependencies": {
+		"@rollup/plugin-yaml": "^3.0.0",
 		"@sveltejs/adapter-vercel": "next",
 		"@sveltejs/kit": "next",
 		"eslint": "^7.22.0",

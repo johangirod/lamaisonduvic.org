@@ -1,10 +1,14 @@
+<script>
+import logo from '../../static/images/logo.jpg?w=400&format=webp';
+</script>
+
 <svelte:head>
 
 <title>Charte de l'association</title>
 <meta name="description" content="La charte de l'association"/>
 <meta property="og:title" content="La Charte de l'association Vic et Vers Ça" />
 <meta property="og:description" content="L'association propose des espaces de rencontres, de créations, de réflexions et d'organisations collectives dans le but de promouvoir des initiatives locales, populaires, solidaires et sociales. Vous trouverez ici notre charte complète." />
-<meta property="og:image" content="/images/logo.jpg" />
+<meta property="og:image" content={logo} />
 <meta og:locale="fr_FR" />
 </svelte:head>
 
@@ -12,7 +16,7 @@
 
 [🡨 Retour](/)
 
-<div style="text-align: center"><img alt="logo association Vic et Vers Ça" src="/images/logo.jpg" height="130"></div>
+<div style="text-align: center"><img alt="logo association Vic et Vers Ça" src={logo} height="130"></div>
 
 # La charte de l'association
 

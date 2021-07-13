@@ -42,6 +42,7 @@
 				out:slide={{ direction: -1, duration: 500 }}
 				animate:flip={{ duration: 500 }}
 				on:click={handleNext}
+				sizes="(max-width: 420px) 400px, (max-width: 660px) 640px, 768px"
 				{srcset}
 				{alt}
 			/>

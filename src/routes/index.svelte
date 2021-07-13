@@ -1,6 +1,7 @@
 <script>
 	import Actualités from '$lib/Actualités.svelte';
 	import Carrousel from '$lib/Carrousel.svelte';
+	import logo from '../../static/images/logo.jpg?w=400&format=webp';
 	import Content from './_accueil.md';
 	import { photoMaisonVic, photosAsso, photosMaison } from './_images';
 	import schema from './_schema.json';
@@ -38,11 +39,7 @@
 		<img {...photoMaisonVic} type="image/webp" alt="Vue du hameau de la maison du vic" />
 	</div>
 	<header>
-		<img
-			height="130"
-			src="/images/logo.jpg"
-			alt="Logo de l'association de la maison du vic : Vic et Vers Ça"
-		/>
+		<img height="130" src={logo} alt="Logo de l'association de la maison du vic : Vic et Vers Ça" />
 
 		<h1>Bienvenue à la Maison du Vic</h1>
 		<p class="lead">Gîte associatif pour initiatives locales, populaires, solidaires et sociales</p>

@@ -55,7 +55,7 @@ Nous sommes disponibles pour vous donner plus d’informations !
 
 Le planning des activités et réservations de la maison
 
-<iframe title="L'agenda de la maison du Vic" src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;height=400&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=lamaisonduvic%40gmail.com&amp;amp;ctz=Europe%2FParis&amp;color=%230F4B38&amp;"  scrolling="no" width="100%" height="400"></iframe>
+<iframe title="L'agenda de la maison du Vic" src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;height=400&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=lamaisonduvic%40gmail.com&amp;amp;ctz=Europe%2FParis&amp;color=%230F4B38&amp;"  scrolling="no" width="100%" height="400" loading="lazy"></iframe>
 
 ## Nous trouver
 
@@ -75,7 +75,7 @@ Nous sommes situés :
 </div>
 
 <div style="text-align: right" name>
-  <iframe width="100%" height="350" title="La maison du Vic sur la carte" scrolling="no"  src="https://www.openstreetmap.org/export/embed.html?bbox=1.5861511230468752%2C43.758200767075934%2C2.638092041015625%2C44.36116948697885&amp;layer=mapnik&amp;marker=44.06045271345171%2C2.11212158203125" ></iframe><small><a href="https://www.openstreetmap.org/?mlat=44.0605&amp;mlon=2.1121#map=10/44.0605/2.1121">Voir la carte en grand</a></small>
+  <iframe width="100%" height="350" title="La maison du Vic sur la carte" scrolling="no"  src="https://www.openstreetmap.org/export/embed.html?bbox=1.5861511230468752%2C43.758200767075934%2C2.638092041015625%2C44.36116948697885&amp;layer=mapnik&amp;marker=44.06045271345171%2C2.11212158203125" loading="lazy"></iframe><small><a href="https://www.openstreetmap.org/?mlat=44.0605&amp;mlon=2.1121#map=10/44.0605/2.1121">Voir la carte en grand</a></small>
 </div>
 </div>
 

@@ -1,4 +1,10 @@
 
+- titre: La maison du vic est sur facebook
+  description: Vous pouvez aimer la page pour être tenu au courant de nos actualités !
+  action: 
+    nom: Aller sur la page
+    url: https://facebook.com/lamaisonduvic/
+
 - titre: Connaissez-vous O'meloKo ?
   quand: Tous les jeudi de 17h30 à 19h
   description: Venez récupérer votre commande de produits fermiers et artisanaux locaux.

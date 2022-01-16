@@ -70,7 +70,7 @@
 		margin: -1rem;
 		display: flex;
 		align-items: center;
-		max-height: 50vh;
+		max-height: 55vh;
 		height: calc(1rem + 100vw * 270 / 360);
 		position: relative;
 		overflow: hidden;

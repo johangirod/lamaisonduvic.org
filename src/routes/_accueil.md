@@ -27,27 +27,19 @@ La maison peut donc accueillir **15 personnes au maximum pour dormir**.
 
 ## Les tarifs
 
-Nous souhaitons que la Maison soit **la plus accessible possible**.
 
-Après avoir étudié les frais de gestion de la maison (eau, électricité, gaz, assurances, matériels de sécurité, travaux, taxes, etc.), nous vous proposons les tarifs suivants pour l'année 2021.
+Après avoir étudié les frais de gestion de la maison (eau, électricité, gaz, assurances, matériels de sécurité, travaux, taxes, etc.), nous vous proposons les tarifs suivants pour l'année 2022.
 
-Ces tarifs sont valables pour toute la maison, indépendamment du nombre de personnes.
+Ils sont valables pour une nuit, pour toute la maison (indépendamment du nombre de personnes).
 
-### Été
+|              | **Tarif de base** | Tarif soutien  | Tarif solidaire* |
+| -----------: | ----------------: | -------------: | ---------------: |
+|          Été |         **100 €** |         130 €  |            70 €  |
+|        Hiver |         **120 €** |         150 €  |            90 €  |
 
-|              | Tarif de base | Tarif soutien |
-| -----------: | ------------: | ------------: |
-|       Nuitée |          70 € |          90 € |
-|      Journée |          40 € |          50 € |
-| Demi-journée |          20 € |          30 € |
+Les arrivées sont prévues à partir de 17h la veille, et le départ avant 12h le lendemain. Il est possible d'arriver plus tôt dans la journée ou de partir après moyennant une petite participation pour la demi journée (30 € en été et 40 € en hiver).
 
-### Hiver
-
-|              | Tarif de base | Tarif soutien |
-| -----------: | ------------: | ------------: |
-|       Nuitée |          80 € |         100 € |
-|      Journée |          50 € |          60 € |
-| Demi-journée |          30 € |          40 € |
+* *Nous souhaitons que la Maison soit **la plus accessible possible**. Nous proposons donc un tarif solidaire pour les groupes ou collectifs en difficulté. A l'inverse, il est possible d'opter pour le tarif soutien pour nous aider à la prise en charge des séjours au tarif solidaires et continuer à développer la maison et l'association.*  
 
 Nous sommes disponibles pour vous donner plus d’informations !
 

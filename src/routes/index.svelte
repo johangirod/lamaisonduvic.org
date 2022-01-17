@@ -3,7 +3,7 @@
 	import Carrousel from '$lib/Carrousel.svelte';
 	import logo from '../../static/images/logo.jpg?w=400&format=webp';
 	import Content from './_accueil.md';
-	import { photoMaisonVic, photosAsso, photosMaison } from './_images';
+	import { photoMaisonVic, photosAsso, photosAutres, photosMaison } from './_images';
 	import schema from './_schema.json';
 </script>
 
@@ -54,6 +54,7 @@
 	<Content>
 		<Carrousel slot="photos asso" images={photosAsso} />
 		<Carrousel slot="photos maison" images={photosMaison} />
+		<Carrousel slot="photos autres" images={photosAutres} />
 	</Content>
 </main>
 
@@ -69,7 +70,7 @@
 		margin: -1rem;
 		display: flex;
 		align-items: center;
-		max-height: 50vh;
+		max-height: 55vh;
 		height: calc(1rem + 100vw * 270 / 360);
 		position: relative;
 		overflow: hidden;

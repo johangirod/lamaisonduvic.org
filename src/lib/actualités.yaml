@@ -1,14 +1,20 @@
+- titre: Le rapport d'activité 2021 est disponible !
+  quand: Nouveautés
+  description: Vous y trouverez le bilan de l'année, des nouvelles de la vie de l'association et les groupes accueillis en 2021.
+  action:
+    nom: Consulter en PDF
+    url: Rapport d'activité 2021 Maison du Vic.pdf
 
 - titre: La maison du vic est sur facebook !
   quand: Nouveautés
   description: Vous pouvez aimer la page pour être tenu au courant de nos actualités !
-  action: 
+  action:
     nom: Aller sur la page
     url: https://facebook.com/lamaisonduvic/
 
 - titre: Connaissez-vous O'meloKo ?
   quand: Tous les jeudi de 17h30 à 19h
   description: Venez récupérer votre commande de produits fermiers et artisanaux locaux.
-  action: 
+  action:
     nom: Faire une commande
     url: http://app.cagette.net/group/6030

@@ -36,7 +36,7 @@
 				d="M766.1,28.9c-200-57.5-266,65.5-395.1,19.5C242,1.8,242,5.4,184.8,20.6C128,35.8,132.3,44.9,89.9,52.5C28.6,63.7,0,0,0,0 h1000c0,0-9.9,40.9-83.6,48.1S829.6,47,766.1,28.9z"
 			/>
 		</svg>
-		<img {...photoMaisonVic} type="image/webp" alt="Vue du hameau de la maison du vic" />
+		<img {...photoMaisonVic} type="image/webp" alt="Vue sur la campagne environnante depuis le jardin de la maison du vic" />
 	</div>
 	<header>
 		<img height="130" src={logo} alt="Logo de l'association de la maison du vic : Vic et Vers Ça" />
@@ -71,7 +71,7 @@
 		display: flex;
 		align-items: center;
 		max-height: 55vh;
-		height: calc(1rem + 100vw * 270 / 360);
+		height: calc(1rem + 100vw * 533 / 800);
 		position: relative;
 		overflow: hidden;
 	}

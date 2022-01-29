@@ -14,7 +14,7 @@
 					{description}<br />
 				</div>
 				<div class="action">
-					<small><a class="button" href={action.url}>{action.nom}</a></small>
+					<small><a class="button" target="_blank" href={action.url}>{action.nom}</a></small>
 				</div>
 			</li>
 		{/each}

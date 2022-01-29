@@ -18,8 +18,8 @@ import tortue from '../../static/images/gallerie/tortue.jpg?w=400;640;768&format
 import panneau from '../../static/images/gallerie/panneau.jpg?w=400;640;768&format=webp&srcset';
 import maisonVic from '../../static/images/maisonVic.jpg?w=400;640;800&format=webp&srcset';
 export const photosAsso = [
-	
-	
+
+
 	{
 		srcset: repasSoir,
 		alt: 'Un repas du soir chaleureux dans la cuisine de la maison du Vic'
@@ -33,11 +33,11 @@ export const photosAsso = [
 		srcset: barnumBar,
 		alt:
 			"Des personnes sous un barnum dans le jardin de la maison du vic, autour d'un bar artisanal"
-	}, 
+	},
 	{
 		srcset: salon2,
 		alt: 'Le salon de la maison du Vic, avec trois personnes qui échangent dans les canapés'
-	},{
+	}, {
 		srcset: barnumTable,
 		alt:
 			'Des personnes attablées sous un barnum pendant une fête dans le jardin de la maison du Vic'
@@ -53,17 +53,19 @@ export const photosMaison = [
 	{
 		srcset: salon,
 		alt: 'Le salon de la maison, avec une cheminée et un canapé'
-	},{
-		srcset: chambreRouge,
-		alt: 'Le lit double de la chambre rouge au premier étage de la maison du Vic'
-	},{
-		srcset: bureau,
-		alt: 'Le bureau au premier étage avec une chaîne hifi, une chaise et un canapé'
-	},{
+	},
+	{
 		srcset: tableLanger,
 		alt: "Une table à langer dans la salle d'eau au premier"
 	},
-
+	{
+		srcset: chambreRouge,
+		alt: 'Le lit double de la chambre rouge au premier étage de la maison du Vic'
+	},
+	{
+		srcset: bureau,
+		alt: 'Le bureau au premier étage avec une chaîne hifi, une chaise et un canapé'
+	},
 	{
 		srcset: porteSalleZen,
 		alt: 'Buffet et miroir devant la porte de la salle Zen'
@@ -73,8 +75,10 @@ export const photosMaison = [
 		alt:
 			'La grande salle Zen au deuxième étage'
 	},
-	{ srcset: dortoir,
-	alt: 'Le dortoir de la maison du Vic avec trois lits superposés' }
+	{
+		srcset: dortoir,
+		alt: 'Le dortoir de la maison du Vic avec trois lits superposés'
+	}
 ];
 
 
@@ -82,12 +86,17 @@ export const photosAutres = [
 	{
 		srcset: panneau,
 		alt:
-		"Un panneau avec inscrit 'La maison du Vic' dessus"
+			"Un panneau avec inscrit 'La maison du Vic' dessus"
 	},
 	{
 		srcset: tortue,
 		alt:
-		"La façade de la cuisine vue depuis le jardin"
+			"La façade de la cuisine vue depuis le jardin"
+	},
+	{
+		srcset: fenetreChambre,
+		alt:
+			"La vue depuis une fenêtre d'une chambre au premier étage"
 	},
 	{
 		srcset: entree,
@@ -99,11 +108,6 @@ export const photosAutres = [
 		alt:
 			"Une plante devant la fenêtre du salon en hiver"
 	},
-	{
-		srcset: fenetreChambre,
-		alt:
-			"La vue depuis une fenêtre d'une chambre au premier étage"
-	}
 ];
 
 export const photoMaisonVic = {

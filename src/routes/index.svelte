@@ -1,7 +1,7 @@
 <script>
 	import Actualités from '$lib/Actualités.svelte';
 	import Carrousel from '$lib/Carrousel.svelte';
-	import logo from '../../static/images/logo.jpg?w=400&format=webp';
+	import logo from '../../static/images/logo.jpg?w=400&format=jpg';
 	import Content from './_accueil.md';
 	import { photoMaisonVic, photosAsso, photosAutres, photosMaison } from './_images';
 	import schema from './_schema.json';

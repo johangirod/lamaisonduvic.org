@@ -17,6 +17,9 @@ import bureau from '../../static/images/gallerie/bureau.jpg?w=400;640;768&format
 import tortue from '../../static/images/gallerie/tortue.jpg?w=400;640;768&format=jpg&srcset&rotate=90';
 import panneau from '../../static/images/gallerie/panneau.jpg?w=400;640;768&format=jpg&srcset';
 import maisonVic from '../../static/images/maisonVic.jpg?w=400;640;800&format=jpg&srcset';
+
+import FestiVic from '../../static/images/afficheFestivic.jpg?w=400;640;800&format=jpg&srcset';
+
 export const photosAsso = [
 
 
@@ -117,3 +120,11 @@ export const photoMaisonVic = {
 	alt: 'Vue depuis la Maison du Vic',
 	sizes: '(max-width: 400px) 400px, (max-width: 640px) 640px, 800px'
 };
+
+export const actualités = {
+	FestiVic: {
+		srcset: FestiVic,
+		alt: "L'affiche du Festi'Vic 2022",
+		sizes: '(max-width: 400px) 400px, (max-width: 640px) 640px, 800px'
+	}
+}

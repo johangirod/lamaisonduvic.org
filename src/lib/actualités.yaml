@@ -1,3 +1,11 @@
+- titre: "Festi'Vic : concerts, buvette et repas à la maison du Vic !"
+  quand: le 4 juin 2022 dès 17h30
+  description: Avec « La canaille du Midi » (Chorale révolutionnaire), « Peldrút » (Musique occitane) et « Les bandits du pays » (Folk Bluegrass). Entrée à prix libre pour soutenir l'association.
+  image: FestiVic
+  action:
+    nom: Voir le programme
+    url: /festivic
+
 - titre: Le rapport d'activité 2021 est disponible !
   quand: Nouveautés
   description: Vous y trouverez le bilan de l'année, des nouvelles de la vie de l'association et les groupes accueillis en 2021.

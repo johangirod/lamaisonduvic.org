@@ -8,7 +8,10 @@
     nos manques d'investissements possibles en temps, l'augmentation des charges de la maison et le manque de fréquentation de groupes, nous avons décidé de mettre fin à l'association et le lieu est désormais en vente. 
     
     Merci d'avoir vécu une partie de l'aventure avec nous et à bientôt pour continuer de faire vivre des initiatives solidaires et sociales ici ou là 🙂
-
+  action:
+    nom: Nous dire au revoir
+    url: mailto:lamaisonduvic@lilo.org
+    
 - titre: "Festi'Vic : concerts, buvette et repas à la maison du Vic !"
   quand: le 4 juin 2022 dès 17h30
   description: Avec « La canaille du Midi » (Chorale révolutionnaire), « Peldrút » (Musique occitane) et « Les bandits du pays » (Folk Bluegrass). Entrée à prix libre pour soutenir l'association.
